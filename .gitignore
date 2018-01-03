@@ -1,0 +1,26 @@
+# IDE generated files #
+#######################
+.classpath
+.project
+.settings
+.idea
+.metadata
+*.iml
+*.ipr
+
+# Backup and Temp files #
+#########################
+**/*~
+**/*.bak
+**/*.swp
+
+# OS generated files #
+######################
+**/.DS_Store
+**/.DS_Store?
+**/._*
+**/.Spotlight-V100
+**/.Trashes
+**/ehthumbs.db
+**/Thumbs.db
+
