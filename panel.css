@@ -1,0 +1,51 @@
+#gridContainer {
+  display: grid;
+  grid-template-columns: 115px 50px auto 40px 60px;
+  grid-template-rows: auto;
+  grid-gap: 1px 1px;
+  padding: 1px;
+  background-color: grey;
+}
+
+.item {
+  align-self: center;
+  padding: 2px;
+  background-color: white;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.collapsible {
+  grid-column: 1 / span 5;
+  align-self: center;
+  padding: 2px;
+  background-color: white;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.heading {
+  text-align: center;
+}
+
+.optionsContainer {
+  display: grid;
+  grid-template-columns: 195px 145px 205px 100px auto;
+  grid-template-rows: auto;
+  grid-gap: 1px 1px;
+  padding: 1px;
+}
+
+.optionBox {
+  display: inline;
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.clearButton {
+  display: inline;
+  padding: 5px;
+}
