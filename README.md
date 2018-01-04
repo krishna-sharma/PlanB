@@ -13,5 +13,16 @@ Simply installing the plugin will add a panel to your dev tools. This panel simp
 I don't have any plans as of now to add more features to this guy. But its something I will be using frequently. I am planning to support this little plugin for future versions of chrome till a better alternative is provided by the official browser gods.
 
 # References
-https://bugs.chromium.org/p/chromium/issues/detail?id=453078
-https://bugs.chromium.org/p/chromium/issues/detail?id=141129
+* https://bugs.chromium.org/p/chromium/issues/detail?id=453078
+* https://bugs.chromium.org/p/chromium/issues/detail?id=141129
+
+# ChangeLog
+v1.2 (2018-01-04)
+* Fix for a chrome v63 bug that may smetimes report the extension as corrupted. Fix done as per this thread - https://productforums.google.com/d/msg/chrome/kGgLwnrDKpQ/TFK1DG23BgAJ
+* Optimised the icons used inside to reduce overall bundle size.
+
+v1.1 (2018-01-03)
+* Minor updates to the manifest file name section.
+
+v1.0 (2018-01-03)
+* The very first version.
