@@ -2,7 +2,7 @@
   "name": "PlanB Extension",
   "short_name": "PlanB",
   "description" : "Your Plan B for viewing network responses in dev tools",
-  "version": "1.1",
+  "version": "1.2",
   "manifest_version": 2,
 
   "minimum_chrome_version": "57",
@@ -19,5 +19,6 @@
     "256": "icons/icon256.png"
   },
 
-  "devtools_page": "index.html"
+  "devtools_page": "index.html",
+  "update_url": "http://0.0.0.0"
 }
